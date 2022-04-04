@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: ENC(o1+swS28tmluBRhVI3ySEQ==)
+    password: ENC(o1+swS28tmluBRhVI3ySEQ==)
+    url: jdbc:mysql://localhost:3306/anil
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+ 
+  
+
+
+
+
